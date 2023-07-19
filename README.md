@@ -10,9 +10,13 @@ This repository contains a basic HTML registration form template. The form is de
 * Contributing
 * License
 
+-------------------
+
 ### Features
 * Simple and intuitive registration form layout
 * Input fields for first name, last name, email address, password, registration
+
+-------------------
 
 ### Usage
 <u>To use the registration form template in your project:</u>
@@ -22,8 +26,10 @@ This repository contains a basic HTML registration form template. The form is de
 * Customize the form fields to suit your project requirements
 * Feel free to modify, enhance, or style the form to fit your specific needs
 
+-------------------
 ### Contributing
 Contributions are welcome! If you find any issues or have ideas for improvements, please open an issue or submit a pull request
 
+-------------------
 #### License
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license
