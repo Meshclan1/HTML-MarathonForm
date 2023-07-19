@@ -7,8 +7,8 @@ This repository contains a basic HTML registration form template. The form is de
 ### Table of Contents
 * Features
 * Usage
-• Contributing
-• License
+* Contributing
+* License
 
 ### Features
 * Simple and intuitive registration form layout
