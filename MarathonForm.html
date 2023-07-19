@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <h1>Race Registration Form!</h1>
+    <form action="">
+      <div>
+        <label for="FName"> <b>First Name:</b> </label>
+        <input
+          type="text"
+          placeholder="First Name"
+          id="FName"
+          name="FName"
+          required
+        />
+        <label for="LName"> <b>Last Name:</b> </label>
+        <input
+          type="text"
+          placeholder="Last Name"
+          id="LName"
+          name="LName"
+          required
+        />
+      </div>
+      <p><u>Select a Race:</u></p>
+
+      <div>
+        <input type="radio" id="FR5K" name="Race" value="FR5K" />
+        <label for="FR5K">Fun Run 5K</label><br />
+        <input type="radio" id="HMarathon" name="Race" value="HMarathon" />
+        <label for="HMarathon">Half Marathon</label><br />
+        <input type="radio" id="FMarathon" name="Race" value="FMarathon" />
+        <label for="FMarathon">Full Marathon</label>
+      </div>
+      <br />
+
+      <div>
+        <label for="EMail"> <b>Email:</b> </label>
+        <input
+          type="email"
+          placeholder="Email"
+          id="EMail"
+          name="EMail"
+          required
+        />
+        <label for="LName"> <b>Password:</b> </label>
+        <input
+          type="password"
+          placeholder="Password"
+          id="PWord"
+          name="PWord"
+          required
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="age"> Select Age Group:</label>
+        <select name="age" id="age">
+          <option selected value="Under 18">Under 18</option>
+          <option value="19-25">19-25</option>
+          <option value="26-35">26-35</option>
+          <option value="36-45">36-45</option>
+          <option value="46+">46+</option>
+        </select>
+      </div>
+      <br />
+
+      <button type="button">Register</button>
+    </form>
+  </body>
+</html>
